@@ -1,0 +1,4 @@
+观察者模式：
+  接口Obser聚合类Sub,
+  接口Obser的实现类，构造方法引入Sub,并且将该实现类添加到Sub的List集合中，
+  Sub的属性改变是将遍历List集合
